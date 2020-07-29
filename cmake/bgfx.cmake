@@ -76,7 +76,7 @@ endif()
 ######################################
 
 target_compile_definitions(bgfx PRIVATE
-    BGFX_CONFIG_MAX_DRAW_CALLS=8192
+    #BGFX_CONFIG_MAX_DRAW_CALLS=8192
     BGFX_CONFIG_MAX_TEXTURES=512
     BGFX_CONFIG_MAX_FRAME_BUFFERS=64
     BGFX_CONFIG_MAX_OCCLUSION_QUERIES=32
